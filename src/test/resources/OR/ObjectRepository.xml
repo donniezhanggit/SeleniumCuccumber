@@ -1,0 +1,37 @@
+<OR>
+<LoginPage>
+	<txtUserNameXpath>.//*[@id='CAMUsername']</txtUserNameXpath>
+	<txtPasswordXpath>.//*[@id='CAMPassword']</txtPasswordXpath>
+	<btnOKXpath>.//*[@id='cmdOK']</btnOKXpath>
+</LoginPage>	
+<HomePage>
+	<btnMyHomeXpath>.//*[@id='goHomeID_link']</btnMyHomeXpath>
+</HomePage>
+
+<FoldersPage>
+	<linkLogOutXpath>//a[contains(.,'Log Off')]</linkLogOutXpath>
+</FoldersPage>
+
+<ReportPromptPage>
+	<txtSearchBoxXpath>//input[@name='_searchValue']</txtSearchBoxXpath>
+	<txtMedicareNumberXpath>.//*[@id='PRMT_TB_N017181E0x205687BC_NS_']</txtMedicareNumberXpath>
+	<txtMedicareProviderIdXpath>.//*[@id='PRMT_TB_N1758C740x17881804_NS_']</txtMedicareProviderIdXpath>
+	<btnSearchXpath>//button[contains(.,'Search')]</btnSearchXpath>
+	<btnCancelXpath>//button[contains(.,'Cancel')]</btnCancelXpath>
+	<btnInsertXpath>//button[contains(.,'Insert')]</btnInsertXpath>
+	<btnRemoveXpath>//button[contains(.,'Remove')]</btnRemoveXpath>
+	<btnFinishXpath>//button[contains(.,'Finish')]</btnFinishXpath>	
+</ReportPromptPage>
+
+<ReportPage>
+	<btnLogOffXpath>//div//table[@id='_NS_logOnOff']</btnLogOffXpath>
+	<tableReportXpath>//table[@class='ls']</tableReportXpath>
+</ReportPage>
+
+<ConnectionPage>
+	<btnRadioXpath>//input[@type='radio']</btnRadioXpath>
+	<btnOKRadioXpath>//button[contains(.,'OK')]</btnOKRadioXpath>
+	<btnCancelXpath>//button[contains(.,'Cancel')]</btnCancelXpath>
+	<tabConnectionXpath>"//td[2][contains(.,'Data source')]"</tabConnectionXpath>
+</ConnectionPage>
+</OR>
