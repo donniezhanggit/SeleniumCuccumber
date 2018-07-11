@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-
+	
 
 	<build>
 		<plugins>
@@ -151,23 +151,30 @@
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>1.2.5</version>
+			<version>1.2.2</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer-->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java8 -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java8>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java8</artifactId>
 			<version>1.2.5</version>
-		</dependency>
+		</dependency -->
 
+			<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java8 -->
+		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-java8</artifactId>
+		    <version>1.2.4</version>
+		</dependency>
+			
 
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java > <dependency> 
 			<groupId>info.cukes</groupId> <artifactId>cucumber-java</artifactId> <version>1.2.5</version> 

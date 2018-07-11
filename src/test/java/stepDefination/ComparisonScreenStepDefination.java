@@ -3,12 +3,11 @@ package stepDefination;
 
 import java.util.List;
 
-
-
-import cucumber.api.DataTable;
-
 import cucumber.api.java8.En;
-import safetrip.tests.BaseTest;
+//import cucumber.table.DataTable;
+//import cucumber.annotation.en.Given;
+
+//import cucumber.table.DataTable;
 
 public class ComparisonScreenStepDefination   implements En {
 	
